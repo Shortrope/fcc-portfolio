@@ -1,0 +1,110 @@
+body {
+  padding-top: 50px;
+  color: #002d52;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.separator {
+  padding-top: 50px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero__fullscreen-image-container {
+/*  background-image: url(../images/building.jpg);*/
+  background-image: url(http://shortrope.com/fcc-codepen-resources/images/building1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero__text {
+  color: #fff;
+  padding: 40px 0 60px;
+  width: 100%;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero__sub-title {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.hero__links {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero__btn {
+  color: #002d52;
+  color: #fff;
+  background-color: #fab700;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(90, 90, 90, 0.95);
+  /*  background-color: #4d4d4d;*/
+  border-color: rgba(0, 0, 0, 0.8);
+  /*  border-color: #fab700;*/
+}
+
+.about {
+  background: url(../images/texture1-grey.png);
+  background-image: url(../images/desk3-dark.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 50px;
+  padding: 170px 0;
+}
+
+.about__image {
+  width: 300px;
+}
+
+.about__bio,
+.about__name {
+  text-align: center;
+  padding: 0px 40px;
+}
+.about__name {
+  margin: 0 0px 20px;
+  padding: 5px 0;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+
+.portfolio {
+  background: url(../images/texture1-grey.png);
+  background-image: url(../images/code3.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 70px;
+  text-align: center;
+}
+.portfolio__item {
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.portfolio__page-heading {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
